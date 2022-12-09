@@ -16,25 +16,39 @@
 <body>
     .<div class="container" style="background-color: red; min-width: 300px;">
     </br>
-        <div class="row">
+    <div class="row">
 
-            <!-- Card Employes-->
+        <!-- Card Employes-->
             <div class="col-md-5" style="background-color: green; min-width: 300px;">
                 <div class="card">
-                    <div class="card-header">
-                        Employes
-                    </div>
-                    <div class="card-body">
-    
-                    </div>                   
+                    
+                    <div class="card-header"> Employes </div>
+                    
+                    <div class="card-body">                       
+                        <form action="javaScript:void(0);" method="post">
+
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Name</label>
+                              <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="employee's name ">
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="text" class="form-control" name="email" id="email" aria-describedby="helpId" placeholder="employee's email">
+                            </div>
+
+                        <button type="submit" class="btn btn-success">add employee</button>
+
+                        </form>
+                    </div>   
+
                 </div>
             </div>
-            <!-- Card Employes-->
+        <!-- Card Employes-->
 
-            <!-- Employes Table -->
+        <!-- Employes Table -->
             <div class="col-md-7 " style="background-color: blue; min-width: 300px;">
                 <div class="table-responsive">
-
                     
                     <table class="table table-primary">
                         <thead>
@@ -45,6 +59,7 @@
                                 <th scope="col"> Jobs </th>
                             </tr>
                         </thead>
+
                         <tbody>
                             <tr class="">
                                 <th scope="col"> </th>
@@ -64,10 +79,10 @@
                 </div>
                          
             </div>
-            <!-- Employes Table -->
-        </div>
+        <!-- Employes Table -->
 
-        
+        </div>
+ 
     </div>
 </body>
 </html>
