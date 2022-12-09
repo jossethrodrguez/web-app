@@ -17,8 +17,3 @@ CRUD Web App  with JavaScript and PHP.
 4. Check and improve.
  
 
-
-### Directories Structure:
-- templeates: Storage models to reuse style.
-- - site: info to show in the site.
-- - admin: HTML structure to admin the site.
